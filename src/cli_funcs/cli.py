@@ -33,7 +33,7 @@ def _version_callback(value: bool) -> None:
 
 @app.command()
 def fetch_pass(
-    passw: str = typer.Option("root", "--pass", "-P"),
+    passw: str = typer.Option("", "--pass", "-P"),
 ) -> None:
     return passw
 

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3c73ea32a2bb780fc9503ddaf0103deaaaf41277c5b9492f0a8a06859fd26f30"
+            "sha256": "762ef65272c6af104f38c80e682a33f192bd4430adccf680056ad436dcda5aae"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -30,14 +30,6 @@
             ],
             "markers": "'linux' in sys_platform",
             "version": "==1.6.0"
-        },
-        "keyboard": {
-            "hashes": [
-                "sha256:63ed83305955939ca5c9a73755e5cc43e8242263f5ad5fd3bb7e0b032f3d308b",
-                "sha256:8e9c2422f1217e0bd84489b9ecd361027cc78415828f4fe4f88dd4acd587947b"
-            ],
-            "index": "pypi",
-            "version": "==0.13.5"
         },
         "mysql-connector-python": {
             "hashes": [
