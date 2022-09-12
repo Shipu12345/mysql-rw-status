@@ -8,6 +8,7 @@ python-dotenv = "*"
 keyboard = "*"
 mysql-connector-python = "*"
 typer = "*"
+pynput = "*"
 
 [dev-packages]
 

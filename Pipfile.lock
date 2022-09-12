@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7843261c9f7e82e5e8e6311ca827986bd6beab06261a1ac56e1497c0fc1e0e66"
+            "sha256": "3c73ea32a2bb780fc9503ddaf0103deaaaf41277c5b9492f0a8a06859fd26f30"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -23,6 +23,13 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==8.1.3"
+        },
+        "evdev": {
+            "hashes": [
+                "sha256:ecfa01b5c84f7e8c6ced3367ac95288f43cd84efbfd7dd7d0cdbfc0d18c87a6a"
+            ],
+            "markers": "'linux' in sys_platform",
+            "version": "==1.6.0"
         },
         "keyboard": {
             "hashes": [
@@ -89,6 +96,15 @@
             "markers": "python_version >= '3.7'",
             "version": "==3.20.1"
         },
+        "pynput": {
+            "hashes": [
+                "sha256:19861b2a0c430d646489852f89500e0c9332e295f2c020e7c2775e7046aa2e2f",
+                "sha256:264429fbe676e98e9050ad26a7017453bdd08768adb25cafb918347cf9f1eb4a",
+                "sha256:3a5726546da54116b687785d38b1db56997ce1d28e53e8d22fc656d8b92e533c"
+            ],
+            "index": "pypi",
+            "version": "==1.7.6"
+        },
         "python-dotenv": {
             "hashes": [
                 "sha256:1684eb44636dd462b66c3ee016599815514527ad99965de77f43e0944634a7e5",
@@ -96,6 +112,22 @@
             ],
             "index": "pypi",
             "version": "==0.21.0"
+        },
+        "python-xlib": {
+            "hashes": [
+                "sha256:1ec6ce0de73d9e6592ead666779a5732b384e5b8fb1f1886bd0a81cafa477759",
+                "sha256:74d83a081f532bc07f6d7afcd6416ec38403d68f68b9b9dc9e1f28fbf2d799e9"
+            ],
+            "markers": "'linux' in sys_platform",
+            "version": "==0.31"
+        },
+        "six": {
+            "hashes": [
+                "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
+                "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==1.16.0"
         },
         "typer": {
             "hashes": [
