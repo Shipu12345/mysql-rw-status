@@ -1,6 +1,8 @@
 import typer
 
 
+
+
 class MysqlConfig:
     def __init__(self, host=None, port=None, user=None, passwd=None, database=None) -> None:
         if not host :
